@@ -204,7 +204,7 @@ i {
 
 
 
-.aqq i {
+.first i {
     color: rgb(255, 255, 255);
     font-size: 55px;
     position: absolute;
@@ -213,7 +213,7 @@ i {
     cursor: pointer;
     }
 
-.ssa i{
+.second i{
     color: rgb(255, 255, 255);
     font-size: 55px;
     position: absolute;
@@ -221,7 +221,7 @@ i {
     left: 7px;
     cursor: pointer;
 }
-.asssa i{
+.third i{
     color: rgb(255, 255, 255);
     top: 30px;
     right:85px;
