@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Anta&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Marhey:wght@300..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+:root {
+    --product-gap: 80px;
+}
+
+
+body {
+    font-family: "Angkor", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: saddlebrown;
+    z-index: 1;
+}
+.navbar_Img h4 {
+    margin-top: -20px;
+}
+
+.navbar_Img{
+    margin-right: 10px;
+    position: relative;
+    right: 240px;
+}
+
+.navbarlinks {
+    margin-left: 50px;
+}
+
+.navbarlinks ul {
+    display: flex;
+    padding: 15px 90px;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbarlinks ul li {
+    font-size: 19px;
+}
+
+.navbar_Img img {
+    height: 100px;
+    width: auto;
+    margin-right: 20px;
+    left: 140px;
+}
+
+.background {
+    background-image: url(https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.background img {
+    position: relative;
+    height: 250px;
+    margin-left: 1164px;
+    right: -43px;
+    top: 70px;
+    z-index: 2;
+}
+
+.textn5 h1{
+    position: absolute;
+    text-align: center;
+    width: 45%;
+    height: 45%;
+}
+
+.text{
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--product-gap);
+    justify-content: center;
+}
+
+.product {
+    width: calc((100% / 4) - var(--product-gap));
+    height: 230px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    border-radius: 15px;
+    border: 2px solid rgb(236, 152, 41);
+}
+
+.product img {
+    width: 50%;
+}
+
+.card__about {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.card__img img {
+    margin-top: 30px;
+}
+
+button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+i {
+    color: red;
+    font-size: 32px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.container{
+    margin-top:70px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgb(231, 134, 30);
+}
+
+.container img{
+    width: 90%;
+    height: 715px;
+    position: relative;
+} 
+
+
+
+.centered {
+    position: absolute;
+    text-align: center;
+    margin-top: 45px;
+    
+  }
+
+.divall {
+    margin-top: 35px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.text1 h1 {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.text1 p {
+    text-align: center;
+    padding-left: 20px;
+}
+
+.image3{
+    position: relative;
+}
+.image3 img {
+    width: 600px;
+    height: auto;
+    }
+
+
+
+.aqq i {
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    position: absolute;
+    top: 300px;
+    right: 7px;
+    cursor: pointer;
+    }
+
+.ssa i{
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    position: absolute;
+    top: 300px;
+    left: 7px;
+    cursor: pointer;
+}
+.asssa i{
+    color: rgb(255, 255, 255);
+    top: 30px;
+    right:85px;
+}
+    
+    
+    
+
+
+
